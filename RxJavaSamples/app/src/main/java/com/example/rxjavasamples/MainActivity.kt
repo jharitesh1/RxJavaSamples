@@ -8,8 +8,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+<<<<<<< HEAD
 
     override fun onResume() {
         super.onResume()
     }
+=======
+>>>>>>> 6af3b242855c87fa78add29ff98eb094114caf86
 }
