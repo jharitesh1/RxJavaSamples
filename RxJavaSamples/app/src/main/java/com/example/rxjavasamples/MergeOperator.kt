@@ -34,7 +34,7 @@ public fun getObserver(): Observer<String> {
     return object : Observer<String> {
 
         override fun onSubscribe(d: Disposable) {
-            println(" onSubscribe : " + d.isDisposed)
+            println(" onSubscribe :  d.isDisposed : " + d.isDisposed)
         }
 
         override fun onNext(value: String) {
